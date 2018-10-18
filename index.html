@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>welcome to Putu Jaya Adi Pranata site - type "help" for a list of commands</p>
+	<div class="terminal_line">
+		:~$ &nbsp; 
+		<form name="terminal" action="#" method="post" onsubmit="return process()">
+			<input type="text" class="command">
+		</form>
+	</div>
+	<div id="output"></div>
+	<script>
+		$(".command").focus();
+	</script>
+</body>
+</html>

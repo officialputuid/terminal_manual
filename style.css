@@ -1,0 +1,89 @@
+body {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 15px;
+	background-color: #2D4E57;
+	color: white;
+}
+
+.terminal_line {
+	display: inline-block;
+	height: 18px;
+	overflow: hidden;
+}
+
+form {
+	float: right;
+	margin: 0;
+	padding: 0;
+	height: 18px;
+	/*position: fixed;*/
+}
+
+p {
+	margin: 0;
+}
+
+input:focus {
+	outline: 0;
+}
+
+input[type=text] {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 15px;
+	border: 0;
+	background-color: transparent;
+	color: white;
+	/*width: 90%;*/
+	/*width: 90vw;*/
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ADADAD;
+}
+
+a:hover {
+	color: #D6D6D6;
+}
+
+.blue {
+	/*margin-left: px;*/
+	color: #67C1D9;
+}
+
+#help-ls {
+	margin-left: 123px;
+}
+
+#help-cd {
+	margin-left: 25px;
+}
+
+#help-cd2 {
+	margin-left: 100px;
+}
+
+#help-clear {
+	margin-left: 100px;
+}
+
+#about {
+	width: 40%;
+}
+
+#projects-1 {
+	margin-left: 60px;
+}
+
+#projects-2 {
+	margin-left: 120px;
+} 
+
+#projects-3 {
+	margin-left: 68px;
+}
+
+#projects-4 {
+	margin-left: 105px;
+}
